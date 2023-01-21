@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>UIMO2ViewMarge</class>
- <widget class="QWidget" name="UIMO2ViewMarge">
+ <class>UIMO2ViewMerge</class>
+ <widget class="QWidget" name="UIMO2ViewMerge">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -56,7 +56,7 @@
          <string>ファイルマージを実行する</string>
         </property>
         <property name="icon">
-         <iconset resource="../res.qrc">
+         <iconset resource="../../Main/src/res.qrc">
           <normaloff>:/res/icon/settings.png</normaloff>:/res/icon/settings.png</iconset>
         </property>
        </widget>
@@ -112,7 +112,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../res.qrc"/>
+  <include location="../../Main/src/res.qrc"/>
  </resources>
  <connections/>
 </ui>

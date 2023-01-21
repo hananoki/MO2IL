@@ -1,5 +1,5 @@
-﻿#include "UIMO2ViewMarge.h"
-#include "ui_UIMO2ViewMarge.h"
+﻿#include "UIMO2ViewMerge.h"
+#include "ui_UIMO2ViewMerge.h"
 
 #include "ui/UIMainWindow.h"
 #include "ItemMO2View.h"
@@ -12,9 +12,9 @@
 using FF = std::tuple<QString, QString>;
 
 //////////////////////////////////////////////////////////////////////////////////
-class UIMO2ViewMarge::Impl : public Ui_UIMO2ViewMarge {
+class UIMO2ViewMerge::Impl : public Ui_UIMO2ViewMerge {
 public:
-	using self_t = UIMO2ViewMarge;
+	using self_t = UIMO2ViewMerge;
 	self_t* self;
 
 	QFuture<void> future1;
@@ -101,7 +101,7 @@ public:
 			auto* gg = qtWindow->mo2ViewTreeView()->currentItem<ItemFolderMO2View>();
 
 			// 必要なファイルをかき集める
-			for( auto& s : fs::readAllLines( gg->fullPath + "/marge.txt" ) ) {
+			for( auto& s : fs::readAllLines( gg->fullPath + "/merge.txt" ) ) {
 				if( s.isEmpty() ) continue;
 
 				auto folderPath = modFolderPath + s;
@@ -253,24 +253,24 @@ public:
 
 
 //////////////////////////////////////////////////////////////////////////////////
-UIMO2ViewMarge::UIMO2ViewMarge( QWidget* parent ) :
+UIMO2ViewMerge::UIMO2ViewMerge( QWidget* parent ) :
 	QWidget( parent ),
 	impl( new Impl( this ) ) {
 
 	connect( qtWindow, &UIMainWindow::signal_start, [&]() {
-		$::restoreState( impl->treeWidget->header(), config.UIMO2Marge_Header );
+		$::restoreState( impl->treeWidget->header(), config.UIMO2Merge_Header );
 		impl->setup();
 	} );
 }
 
 
 /////////////////////////////////////////
-UIMO2ViewMarge::~UIMO2ViewMarge() {
-	$::saveState( config.UIMO2Marge_Header, impl->treeWidget->header() );
+UIMO2ViewMerge::~UIMO2ViewMerge() {
+	$::saveState( config.UIMO2Merge_Header, impl->treeWidget->header() );
 }
 
 
 /////////////////////////////////////////
-void UIMO2ViewMarge::initView() {
+void UIMO2ViewMerge::initView() {
 	impl->initView();
 }

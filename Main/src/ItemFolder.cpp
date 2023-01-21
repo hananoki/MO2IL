@@ -33,7 +33,7 @@ ItemFolderMO2View::ItemFolderMO2View( const QString& _folderPath, bool _check, b
 		if( fs::isExistFile( _folderPath + "/build.csv" ) ) {
 			setIcon( 2, ICON_EDITOR );
 		}
-		if( fs::isExistFile( _folderPath + "/marge.txt" ) ) {
+		if( fs::isExistFile( _folderPath + "/merge.txt" ) ) {
 			setIcon( 2, ICON_EDITOR );
 		}
 

@@ -3,12 +3,12 @@
 #include <QWidget>
 
 //////////////////////////////////////////////////////////////////////////////////
-class UIMO2ViewMarge : public QWidget {
+class UIMO2ViewMerge : public QWidget {
 	Q_OBJECT
 
 public:
-	explicit UIMO2ViewMarge( QWidget* parent = nullptr );
-	virtual ~UIMO2ViewMarge() override;
+	explicit UIMO2ViewMerge( QWidget* parent = nullptr );
+	virtual ~UIMO2ViewMerge() override;
 
 	void initView();
 

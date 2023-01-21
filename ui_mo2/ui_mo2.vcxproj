@@ -14,8 +14,8 @@
     <ProjectGuid>{A7487599-1908-3BE0-B414-F2E0D6A90FD7}</ProjectGuid>
     <RootNamespace>ui_mo2</RootNamespace>
     <Keyword>QtVS_v304</Keyword>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.19041.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.22000.0</WindowsTargetPlatformMinVersion>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -198,7 +198,7 @@
     <ClCompile Include="src\UIMO2ViewBuild.cpp" />
     <ClCompile Include="src\UIMO2ViewFOJP.cpp" />
     <ClCompile Include="src\UIMO2ViewFile.cpp" />
-    <ClCompile Include="src\UIMO2ViewMarge.cpp" />
+    <ClCompile Include="src\UIMO2ViewMerge.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="src\MO2FileTreeView.h">
@@ -212,7 +212,7 @@
     </QtMoc>
     <QtMoc Include="src\UIMO2ViewFile.h">
     </QtMoc>
-    <QtMoc Include="src\UIMO2ViewMarge.h">
+    <QtMoc Include="src\UIMO2ViewMerge.h">
     </QtMoc>
     <CustomBuild Include="..\Main\src\pch.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">echo /*-------------------------------------------------------------------- &gt;..\Main\src\pch.h.cpp
@@ -318,17 +318,14 @@ echo #include "pch.h"&gt;&gt;..\Main\src\pch.h.cpp</Command>
     </QtUic>
     <QtUic Include="src\UIMO2ViewFile.ui">
     </QtUic>
-    <QtUic Include="src\UIMO2ViewMarge.ui">
+    <QtUic Include="src\UIMO2ViewMerge.ui">
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Main\src\icon\MO 2 - Blue.ico" />
-    <None Include="..\Main\src\icon\Settings-02-256.png" />
-    <None Include="..\Main\src\icon\Template.svg" />
     <None Include="..\Main\src\Fallout 4\TranslatorType.txt" />
     <None Include="..\Main\src\Fallout New Vegas\TranslatorType.txt" />
     <None Include="..\Main\src\Skyrim Special Edition\TranslatorType.txt" />
-    <None Include="..\Main\src\icon\VaultGirlAlternate.ico" />
+    <None Include="..\Main\src\markdown\about.md" />
     <None Include="..\Main\src\icon\editor.png" />
     <None Include="..\Main\src\icon\icon_159120_16.png" />
     <None Include="..\Main\src\icon\info.png" />
@@ -336,10 +333,12 @@ echo #include "pch.h"&gt;&gt;..\Main\src\pch.h.cpp</Command>
     <None Include="..\Main\src\icon\internet.png" />
     <None Include="..\Main\src\icon\localize.png" />
     <None Include="..\Main\src\icon\minus.png" />
+    <None Include="..\Main\src\icon\play_store_256.ico" />
     <None Include="..\Main\src\icon\plus.png" />
     <None Include="..\Main\src\icon\reload.png" />
     <QtRcc Include="..\Main\src\res.qrc">
     </QtRcc>
+    <None Include="..\Main\src\icon\run.png" />
     <None Include="..\Main\src\icon\settings.png" />
     <None Include="..\Main\src\icon\settings2.png" />
     <None Include="..\Main\src\style.qss" />

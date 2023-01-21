@@ -143,7 +143,7 @@
      </widget>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>3</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -216,7 +216,7 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="UIMO2ViewMarge" name="mo2Marge" native="true"/>
+         <widget class="UIMO2ViewMerge" name="mo2Merge" native="true"/>
         </item>
        </layout>
       </widget>
@@ -269,15 +269,15 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>UIMO2ViewMarge</class>
-   <extends>QWidget</extends>
-   <header>UIMO2ViewMarge.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>UIMO2ViewFOJP</class>
    <extends>QWidget</extends>
    <header>UIMO2ViewFOJP.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UIMO2ViewMerge</class>
+   <extends>QWidget</extends>
+   <header>UIMO2ViewMerge.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

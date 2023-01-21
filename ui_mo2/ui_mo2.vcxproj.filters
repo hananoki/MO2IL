@@ -65,28 +65,49 @@
     <ClCompile Include="src\UIMO2ViewFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\UIMO2ViewMarge.cpp">
+    <ClCompile Include="src\UIMO2ViewMerge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="src\MO2FileTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="src\TreeViewBuild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <QtMoc Include="src\UIMO2View.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="src\UIMO2ViewBuild.h">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="src\UIMO2ViewFile.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="src\UIMO2ViewFOJP.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="src\UIMO2ViewMarge.h">
-      <Filter>Source Files</Filter>
+    <QtMoc Include="src\UIMO2ViewFile.h">
+      <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="src\UIMO2ViewMerge.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <CustomBuild Include="..\Main\src\pch.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <CustomBuild Include="debug\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
@@ -96,9 +117,13 @@
     <ClCompile Include="..\Main\src\pch.h.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <CustomBuild Include="..\Main\src\pch.h">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="src\UIMO2View.ui">
@@ -113,20 +138,11 @@
     <QtUic Include="src\UIMO2ViewFile.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="src\UIMO2ViewMarge.ui">
+    <QtUic Include="src\UIMO2ViewMerge.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Main\src\icon\MO 2 - Blue.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Main\src\icon\Settings-02-256.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Main\src\icon\Template.svg">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="..\Main\src\Fallout 4\TranslatorType.txt">
       <Filter>Resource Files</Filter>
     </None>
@@ -136,7 +152,7 @@
     <None Include="..\Main\src\Skyrim Special Edition\TranslatorType.txt">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\Main\src\icon\VaultGirlAlternate.ico">
+    <None Include="..\Main\src\markdown\about.md">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\Main\src\icon\editor.png">
@@ -160,6 +176,9 @@
     <None Include="..\Main\src\icon\minus.png">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\Main\src\icon\play_store_256.ico">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="..\Main\src\icon\plus.png">
       <Filter>Resource Files</Filter>
     </None>
@@ -169,6 +188,9 @@
     <QtRcc Include="..\Main\src\res.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+    <None Include="..\Main\src\icon\run.png">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="..\Main\src\icon\settings.png">
       <Filter>Resource Files</Filter>
     </None>
@@ -178,15 +200,5 @@
     <None Include="..\Main\src\style.qss">
       <Filter>Resource Files</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="src\MO2FileTreeView.h">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\TreeViewBuild.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

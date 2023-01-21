@@ -26,7 +26,7 @@ SOURCES += \
     src/UIMO2ViewBuild.cpp \
     src/UIMO2ViewFOJP.cpp \
     src/UIMO2ViewFile.cpp \
-    src/UIMO2ViewMarge.cpp
+    src/UIMO2ViewMerge.cpp
 
 HEADERS += \
     src/MO2FileTreeView.h \
@@ -35,14 +35,14 @@ HEADERS += \
     src/UIMO2ViewBuild.h \
     src/UIMO2ViewFOJP.h \
     src/UIMO2ViewFile.h \
-    src/UIMO2ViewMarge.h
+    src/UIMO2ViewMerge.h
 
 FORMS += \
     src/UIMO2View.ui \
     src/UIMO2ViewBuild.ui \
     src/UIMO2ViewFOJP.ui \
     src/UIMO2ViewFile.ui \
-    src/UIMO2ViewMarge.ui
+    src/UIMO2ViewMerge.ui
 
 # Default rules for deployment.
 unix {

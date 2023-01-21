@@ -41,7 +41,7 @@ using TMap = QMap<QString, QString>;
 	CONFIG_VALUE( QString, headerTreeViewBuild ) \
 	CONFIG_VALUE( QString, mo2ViewHeaderL ) \
 	CONFIG_VALUE( QString, UIMO2File_Header ) \
-	CONFIG_VALUE( QString, UIMO2Marge_Header ) \
+	CONFIG_VALUE( QString, UIMO2Merge_Header ) \
 	CONFIG_VALUE( QString, modRightViewHeader ) \
 	CONFIG_VALUE( QString, modLeftViewHeader )
 

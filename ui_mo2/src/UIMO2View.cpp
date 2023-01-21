@@ -123,9 +123,9 @@ public:
 
 		mo2viewBuild->initView( fsond );
 
-		auto marge = item->fullPath + "/marge.txt";
-		tabWidget->setTabVisible( 2, fs::isExistFile( marge ) );
-		mo2Marge->initView();
+		auto merge = item->fullPath + "/merge.txt";
+		tabWidget->setTabVisible( 2, fs::isExistFile( merge ) );
+		mo2Merge->initView();
 
 		tabWidget->setTabVisible( 3, item->mode == 1 );
 
