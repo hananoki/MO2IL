@@ -1,0 +1,36 @@
+/zlib/.qtc_clangd
+/zlib/debug
+/zlib/release
+/zlib/Makefile*
+/zlib/zlib*.user
+/ui_settings/.qtc_clangd
+/ui_settings/debug
+/ui_settings/release
+/ui_settings/Makefile*
+/ui_settings/ui_*.h
+/ui_settings/ui_settings*.user
+/ui_mo2/.qtc_clangd
+/ui_mo2/debug
+/ui_mo2/release
+/ui_mo2/Makefile*
+/ui_mo2/ui_*.h
+/ui_mo2/ui_mo2*.user
+/teslib/.qtc_clangd
+/teslib/debug
+/teslib/release
+/teslib/Makefile*
+/teslib/ui_*.h
+/teslib/teslib*.user
+/.svn
+/.vs
+/Main/.qtc_clangd
+/Main/debug
+/Main/release
+/Main/ui_*.h
+/Main/Makefile*
+/Main/MO2IL*.user
+/Fallout 4/*
+/Skyrim Special Edition/*
+/*.bat
+/txt
+/*.user

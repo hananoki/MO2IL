@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>style.qss</file>
+        <file>Fallout 4/TranslatorType.txt</file>
+        <file>Fallout New Vegas/TranslatorType.txt</file>
+        <file>Skyrim Special Edition/TranslatorType.txt</file>
+        <file>icon/reload.png</file>
+        <file>icon/settings.png</file>
+        <file>icon/icon_159120_16.png</file>
+        <file>icon/editor.png</file>
+        <file>icon/localize.png</file>
+        <file>icon/internet.png</file>
+        <file>icon/plus.png</file>
+        <file>icon/minus.png</file>
+        <file>icon/info.png</file>
+        <file>icon/info2.png</file>
+        <file>icon/settings2.png</file>
+        <file>icon/run.png</file>
+        <file>icon/play_store_256.ico</file>
+        <file>markdown/about.md</file>
+    </qresource>
+</RCC>

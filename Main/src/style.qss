@@ -1,0 +1,67 @@
+﻿
+QWidget {
+	/**/
+	font-family: "Segoe UI"
+	/**/
+	/**
+	font-family: "07LogoTypeGothic7"
+	/**/
+}
+
+/**/
+QAbstractItemView {
+  alternate-background-color: #F4F4F4;
+}
+/**/
+
+
+/*
+#treeWidgetMod {
+	show-decoration-selected: 1;
+	font-family: "Ricty";
+	font-size: 12px;
+}
+/**/
+QTreeWidget::item,
+QListView::item {
+	height: 20px;
+}
+
+QListView::item:!selected:hover,
+QTreeView::item:!selected:hover {
+	background-color: #8BA7C9;
+}
+
+
+/*
+QPushButton::hover {
+	background-color: #444;
+}
+/**/
+/*
+QTabWidget{
+	background-color: #222;
+}
+/*
+QTabBar::tab {
+/*background-color: #444;
+/*min-width:8ex; padding:2px;
+/*border:2px solid #C4C4C3; border-bottom-color:#C2C7CB;
+border-top-left-radius: 8px; border-top-right-radius: 8px;
+}
+
+QTabBar::tab:selected {
+background-color: #888;
+border:1px solid #222;
+min-width: 16ex;
+margin: 0px;
+padding-left:4px;
+icon-align: center;
+		text-align: center;
+border-top-left-radius: 8px; border-top-right-radius: 8px;
+}
+*/
+
+
+
+
